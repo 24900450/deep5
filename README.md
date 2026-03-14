@@ -26,9 +26,9 @@ Feed the training sequences into the RNN and update weights using backpropagatio
 Use the trained model to predict future stock prices and evaluate performance using metrics such as Mean Squared Error (MSE).
 ## PROGRAM
 
-### Name:
+### Name: SURYANARAYANAN T
 
-### Register Number:
+### Register Number:212224040341
 
 ```python
 import numpy as np
