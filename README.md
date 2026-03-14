@@ -8,32 +8,23 @@ To develop a Recurrent Neural Network (RNN) model for predicting stock prices us
 
 
 ## DESIGN STEPS
-### STEP 1: 
+### Collect Historical Data
+Obtain historical stock market data containing the closing prices for a specific company from a financial dataset.
 
-Write your own steps
+### Preprocess the Data
+Clean the dataset, handle missing values, and normalize the closing prices using techniques like Min-Max scaling.
 
-### STEP 2: 
+### Create Time-Series Sequences
+Convert the data into input sequences where previous n days of closing prices are used to predict the next day's price.
 
+### Build the RNN Model
+Design a Recurrent Neural Network architecture with input layer, one or more RNN/LSTM layers, and a dense output layer.
 
+### Train the Model
+Feed the training sequences into the RNN and update weights using backpropagation through time to minimize prediction error.
 
-### STEP 3: 
-
-
-
-### STEP 4: 
-
-
-
-### STEP 5: 
-
-
-
-### STEP 6: 
-
-
-
-
-
+### Predict and Evaluate
+Use the trained model to predict future stock prices and evaluate performance using metrics such as Mean Squared Error (MSE).
 ## PROGRAM
 
 ### Name:
