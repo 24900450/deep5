@@ -4,26 +4,25 @@
 To develop a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data.
 
 ## Problem Statement and Dataset
-
-
-
+predicting stock prices using historical closing price data.<br>
+Google stock prices are given in trainset.csv and testset.csv files. 
 ## DESIGN STEPS
-### Collect Historical Data
+### Step 1 : Collect Historical Data
 Obtain historical stock market data containing the closing prices for a specific company from a financial dataset.
 
-### Preprocess the Data
+### Step 2 : Preprocess the Data
 Clean the dataset, handle missing values, and normalize the closing prices using techniques like Min-Max scaling.
 
-### Create Time-Series Sequences
+### Step 3 : Create Time-Series Sequences
 Convert the data into input sequences where previous n days of closing prices are used to predict the next day's price.
 
-### Build the RNN Model
+### Step 4 : Build the RNN Model
 Design a Recurrent Neural Network architecture with input layer, one or more RNN/LSTM layers, and a dense output layer.
 
-### Train the Model
+### Step 5 : Train the Model
 Feed the training sequences into the RNN and update weights using backpropagation through time to minimize prediction error.
 
-### Predict and Evaluate
+### Step 6 : Predict and Evaluate
 Use the trained model to predict future stock prices and evaluate performance using metrics such as Mean Squared Error (MSE).
 ## PROGRAM
 
